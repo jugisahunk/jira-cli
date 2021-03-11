@@ -2,7 +2,7 @@
 This is a cli tool for querying Jira. It uses basic authentication. To use it, you'll need to use the username and password credentials for a user with read access to the Jira cloud instance you wish to query against.
 
 # Setup
-This CLI tool is tested to work using python 3.7.1. It will _not_ work on python 2.7.*. If you're on a mac, head to [python.org](https://www.python.org/downloads/) to download and install it or use homebrew. Here's a good guide to [using homebrew](https://docs.python-guide.org/starting/install3/osx/) as your installer.
+This CLI tool is tested to work using python 3.9.2. It will _not_ work on python 2.7.*. If you're on a mac, head to [python.org](https://www.python.org/downloads/) to download and install it or use homebrew. Here's a good guide to [using homebrew](https://docs.python-guide.org/starting/install3/osx/) as your installer.
 
 `query.py` relies on the following environment variables to function:
 
