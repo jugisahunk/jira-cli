@@ -1,0 +1,66 @@
+[
+    {
+        "name" : "key",
+        "value" : ["key"]
+    },
+    {
+        "name" : "url",
+        "value" : ["key","[host]/browse/{}"]
+    },
+    {
+        "name" : "summary",
+        "value" : ["fields.summary"] 
+    },
+    {
+        "name" : "story points",
+        "value" : ["fields.customfield_10004"]
+    },
+    {
+        "name" : "labels",
+        "value" : ["join(`|`, fields.labels)"]
+    },
+    {
+        "name" : "issue type",
+        "value" : ["fields.issuetype.name"]
+    },
+    {
+        "name" : "status",
+        "value" : ["fields.status.name"]
+    },
+    {
+        "name" : "project",
+        "value" : ["fields.project.key"]
+    },
+    {
+        "name" : "fix versions",
+        "value" : ["join(`|`,fields.fixVersions[].name)"]
+    },
+    {
+        "name" : "rework",
+        "value" : ["fields.customfield_12300"]
+    },
+    {
+        "name" : "creator",
+        "value" : ["fields.creator.displayName"]
+    },
+    {
+        "name" : "created",
+        "value" : ["fields.created"]
+    },
+    {
+        "name" : "reporter",
+        "value" : ["fields.reporter.displayName"]
+    },
+    {
+        "name" : "assignee",
+        "value" : ["fields.assignee.name"]
+    },
+    {
+        "name" : "client name",
+        "value" : ["fields.customfield_11600.value"]
+    },
+    {
+        "name" : "client request #",
+        "value" : ["fields.customfield_11100"]
+    }
+]

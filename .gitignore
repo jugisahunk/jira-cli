@@ -1,0 +1,12 @@
+__pycache__/
+.DS_STORE
+*.csv
+*_manifest.json
+.envrc
+config/jira.yml
+dev/
+.direnv/
+output/
+*.swo
+*.swp
+.terraform
